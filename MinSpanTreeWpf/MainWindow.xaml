@@ -1,0 +1,28 @@
+﻿<Window x:Class="SpanningTree.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Spanning Tree" Height="440" Width="1006.5">
+    <Grid Height="409" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="122*"/>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="84*"/>
+            <ColumnDefinition Width="344*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="352*" />
+        </Grid.RowDefinitions>
+        <Button Content="Find Minimum Span Tree" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="findMinSpanTreeBtn" VerticalAlignment="Top" Width="178" Click="findMinSpanTreeBtn_Click" Grid.ColumnSpan="2" />
+        <Button Content="Restart" Height="23" HorizontalAlignment="Right" Margin="0,12,16,0" Name="restartBtn" VerticalAlignment="Top" Width="75" Click="restartBtn_Click" Grid.Column="4" />
+        <Button Content="Clear" Height="23" HorizontalAlignment="Right" Margin="0,12,97,0" Name="clearBtn" VerticalAlignment="Top" Width="75" Click="clearBtn_Click" Grid.Column="4" />
+        <StatusBar Grid.Row="1" Height="25" Name="statusBar1" VerticalAlignment="Top" Grid.ColumnSpan="5" Margin="0,334,0,0" />
+        <Canvas Background="WhiteSmoke" Grid.Row="1" Margin="0,0,0,23" Name="drawingCanvas" SnapsToDevicePixels="True" MouseMove="moveCord" MouseUp="drawingCanvas_MouseUp" Grid.ColumnSpan="5" HorizontalAlignment="Left" Width="697"/>
+        <Canvas Background="WhiteSmoke" Grid.Row="1" Margin="206,0,0,23" Name="Description" SnapsToDevicePixels="True" Grid.Column="4"/>
+        <Label Content="Click on the canvas to create a node." Grid.Row="1" Height="25" HorizontalAlignment="Left" Name="statusLabel" VerticalAlignment="Bottom" Grid.ColumnSpan="5" Width="344" />
+        <TextBlock TextWrapping="Wrap" Grid.Column="4" Margin="216,10,10,25" Grid.Row="1"><Run Text="This program is finding the minimal spanning tree in the given graph (A Network Spanning Tree)."/><LineBreak/><Run/><LineBreak/><Run Text="To start the program just click to create a node, or click on &quot;Example&quot; to create an example network, after you've created the nodes, click on a node to select it, after that click on another node to connect it with an edge."/><LineBreak/><Run Text="After you've finished building your graph, click on &quot;Find Minimum Span Tree&quot; to find the minimal spanning tree."/><LineBreak/><Run Text="You can clear the board with the &quot;Clear&quot; button, and restart your graph by click on &quot;Restart&quot;."/><LineBreak/><Run/><LineBreak/><Run Text="You can mark each interface from each node as broken by clicking on it, it then will change it's and the link's corresponding to it opacity to indicate that it's broken, clicking on a broken interface will fix it."/><LineBreak/><Run Text="on each link both interfaces need to work in order for the link to be functional."/></TextBlock>
+        <Button Content="Example" Height="23" HorizontalAlignment="Right" Margin="0,12,177,0" Name="ExampleBtn" VerticalAlignment="Top" Width="75" Click="ExampleBtn_Click" Grid.Column="4" />
+        <Label Content="" Grid.Row="1" Height="25" HorizontalAlignment="Left" Name="cordLabel" VerticalAlignment="Bottom" Width="57" Grid.Column="4" Margin="423,0,0,0"/>
+    </Grid>
+</Window>

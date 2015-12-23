@@ -1,0 +1,12 @@
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\bin\Debug\SpanningTree.exe
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\bin\Debug\SpanningTree.pdb
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.csprojResolveAssemblyReference.cache
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\MainWindow.baml
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\MainWindow.g.cs
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\App.g.cs
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree_MarkupCompile.cache
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.g.resources
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.Properties.Resources.resources
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.csproj.GenerateResource.Cache
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.exe
+F:\Dropbox\Studies\Ruppin\YearD\SemesterA\ComputerNetworks\SpanningTree\MinSpanTreeWpf\obj\x86\Debug\SpanningTree.pdb
